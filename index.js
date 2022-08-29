@@ -26,7 +26,7 @@ app.get("/stock", (req, res) => {
       }
 
       else if (item["volume"]<100){
-        item['status'] = "Crítico";
+        item['status'] = "Crítico";de
       }
 
       else if (item["volume"]>100 && item["volume"]<140){
